@@ -174,23 +174,24 @@ header a:hover {
 .form-section {
   background: #e8f5e9;
 }
-
-.container {
+.form-section .container {
   text-align: center;
 }
-
-h2 {
+.form-section h2 {
   padding: 8px 0 16 0;
+  font-size: 2.5rem;
+}
+.form-section p {
+  text-align: center;
   font-size: 2rem;
 }
 
 .formulario {
-  background-color: #ffffff;
+  background: #e8f5e9;
   padding: 24px;
   max-width: 500px;
   margin: 16px auto;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .formulario fieldset {
   margin: 0 0 16px 0;
@@ -208,6 +209,7 @@ h2 {
   display: block;
   margin: 12px 0 4px 0;
   font-weight: 600;
+  text-align: left;
 }
 .formulario input,
 .formulario select {
@@ -216,7 +218,7 @@ h2 {
   padding: 12px;
   margin: 0;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 .formulario input::-moz-placeholder {
   color: #777;
@@ -229,4 +231,13 @@ h2 {
   display: block;
   width: 100%;
   margin: 24px 0 0 0;
+}
+
+footer {
+  background: #66bb6a;
+  height: 20px;
+}
+footer small {
+  color: white;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
