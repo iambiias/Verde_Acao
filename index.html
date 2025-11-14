@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Ação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2>Verde Ação</h2>
+            <nav>
+                <div class="divNav">
+                    <ul>
+                        <li><a href="#atividades">Atividades</a></li>
+                        <li><a href="#cadastro">Cadastre-se</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="background">
+            <h1>Verde Ação</h1>
+            <p class="backgroundP">Ser voluntário na Verde Ação é plantar esperança e colher transformação.Juntos, cuidamos do planeta e inspiramos mudanças reais!</p>
+            <button>Quero ser voluntário</button>
+        </section>
+
+        <section id="atividades" class="cards">
+
+            <div class="container">
+                <article class="cardUnidade">
+                    <img src="./assets/card1.png" alt="Imagem de um girassol centralizado, e ao fundo um plantio de girassois">
+                    <h3>Plantio de mudas</h3>
+                    <p>Cada muda plantada ajuda a restaurar o meio ambiente </p>
+                    <button>Ver mais</button>
+                </article>
+
+                <article class="cardUnidade">
+                    <img src="./assets/card2.png" alt="Imagem de um grupo de cinco crianças sorrindo, de diversas etnias, segurando um cartaz branco com símbolos verdes de sustentabilidade, como o de reciclagem e o planeta Terra.">
+                    <h3>Educação ambiental</h3>
+                    <p>Promove oficinas e rodas de conversas</p>
+                    <button>Ver mais</button>
+                </article>
+
+                <article class="cardUnidade">
+                    <img src="./assets/card3.png" alt="Mãos de adulto e criança cultivando mudas verdes em uma horta.">
+                    <h3>Cuidados</h3>
+                    <p>Ajude a manter áreas preservadas</p>
+                    <button>Ver mais</button>
+                </article>
+
+                <article class="cardUnidade">
+                    <img src="./assets/card4.png" alt="Vista aérea de uma grande plantação homogênea de árvores do tipo Eucalipto.">
+                    <h3>Mapeamento</h3>
+                    <p>Identifique areas que precisam de mapeamento</p>
+                    <button>Ver mais</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="cadastro" class="form-section">
+            
+            <div class="container">
+                <h2>Cadastre-se como voluntário</h2>
+                <p>Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade</p>
+                
+                <form class="formulario" action="#" method="post" >
+                <fieldset class="grupoCampos">
+                    <legend>Seus dados</legend>
+
+                </fieldset>
+                   
+                        <label for="name">Nome:</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome">
+               
+
+             
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                 
+
+                 
+                        <label for="cidade">Cidade:</label>
+                        <input id="cidade" type="text" name="cidade" placeholder="Digite o nome de sua cidade">
+                    
+
+                    
+                        <label for="atividades">Atividade:</label>
+                        <select id="atividades" name="atividades">
+                            <option value="" disabled selected>Selecione atividade</option>
+                            <option value="plantio-de-mudas">Plantio de mudas</option>
+                            <option value="educacao-ambiental">Educação ambiental</option>
+                            <option value="cuidados">Cuidados</option>
+                            <option value="mapeamento">Mapeamento</option>
+                        </select>
+                        
+                        </fieldset>
+                    
+
+                    <button>Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>© todos os direitos reservados </small>
+    </footer>
+
+</body>
+</html>
