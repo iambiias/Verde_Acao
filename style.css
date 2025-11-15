@@ -54,7 +54,6 @@ header {
   background-color: #66bb6a;
   color: white;
   padding: 15px 0;
-  border-top: 3px solid #333333;
 }
 header .container {
   font-size: 0;
@@ -135,7 +134,7 @@ header a:hover {
 }
 .cards .cardUnidade {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   display: inline-block;
@@ -235,9 +234,11 @@ header a:hover {
 
 footer {
   background: #66bb6a;
-  height: 20px;
+  text-align: center;
+  padding: 20px 0;
 }
 footer small {
   color: white;
   align-items: center;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
